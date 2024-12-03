@@ -7,7 +7,7 @@ viewportcontent=width=device-width, initial-scale=one>
 title covid strings15 first round
 filename=covid strings15 first round.js
 firstround=(highest overall seed ,second highest seed third highest seed first middle seed, second middle seed,  third lowest seed ,second lowest seed,lowest overall seed)
-highest overall Seed = 1 seed
+highest overall seed = 1 seed
 second highest seed=2 seed
 third highest seed=3 seed
 firstmiddleseed=4seed
