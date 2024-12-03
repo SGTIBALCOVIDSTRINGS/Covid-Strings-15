@@ -27,7 +27,7 @@ matchupdiv.innerHTML =[matchup]
 rounddiv.appendchild(matchup)
 for (i in covid strings first round)
 round div=create element
-round div class name=covid Strings15 first round
+round div class name=covid strings15 first round
 bracket.appendchild(round div)
 if (event.target.covid strings seed list.contains(matchup))
 event.target.covid strings seed list.toggle
