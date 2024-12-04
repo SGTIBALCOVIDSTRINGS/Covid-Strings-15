@@ -3,13 +3,13 @@ script
 html
 head
 utf8
-filename=covid strings14 second round.js
+filename=covid strings15 second round.js
 highest remaining seed=(greatest remaining num value in covid strings list)
 lowest remaining seed = (lowest remaining num value in covid strings Llist)
 intermediate seed1=(first middle remaining value in covid strings list)
 intermediate seed2=(second middle remaining value in covid strings list))
 round =createelement(div);
-createround =covid strings14 second round 
+createround =covid strings15 second round 
 round.classlist.add(round);
 for (let i = zero; i < teams.length; i += two) {
 round.appendchild(creatematchup(teams[i],teams[i+one]));
