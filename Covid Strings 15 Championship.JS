@@ -1,0 +1,40 @@
+doc.type.html
+script
+html
+head
+filename=covid strings14 championship.js
+championship game=(highest and lowest remaining Seeds ) 
+team low seed = lowest remaining seed
+Team high seed= highest remaining seed
+createround covid strings14 championship round 
+round =document.createelement(div);
+round.classlist.add(round);
+for (let i = zero; i < teams.length; i += two) 
+round.appendchild(creatematchup(teams[i], teams[i + one]));
+return round;
+java util.scanner
+java.util
+questions[]questions={
+question26
+question27
+question28
+question29
+question30
+question31
+question32
+question33
+advanceteams=slice(currentteams)
+question26
+question27
+question28
+question29
+question30
+question31
+question32
+advanceteams=slice(currentteams)
+result=declarewinner(team1 score, team2 score)
+if  team high seed score>=sixty:
+console.log(team high seed wins covid strings14)
+else:
+console.log(team low seed wins covid strings14)
+return filename
