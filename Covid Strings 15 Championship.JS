@@ -2,7 +2,7 @@ doc.type.html
 script
 html
 head
-filename=covid strings14 championship.js
+filename=covid strings15 championship.js
 championship game=(highest and lowest remaining seeds ) 
 team low seed = lowest remaining seed
 team high seed= highest remaining seed
@@ -26,7 +26,7 @@ question33
 advanceteams=slice(currentteams)
 result=declarewinner(team1 score, team2 score)
 if  team high seed score>=sixty:
-console.log(team high seed wins covid strings14)
+console.log(team high seed wins covid strings15)
 else:
-console.log(team low seed wins covid strings14)
+console.log(team low seed wins covid strings15)
 return filename
