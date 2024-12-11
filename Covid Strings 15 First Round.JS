@@ -3,6 +3,8 @@ script
 html
 head
 utf8
+viewport content=width=device-width, initial-scale=one>
+title covidstrings 15 first round bracket
 viewportcontent=width=device-width, initial-scale=one>
 title covid strings15 first round
 filename=covid strings15 first round.js
