@@ -150,7 +150,6 @@ if users team wins covid strings15
 console log users team wins covid strings15 
 else
 return game over
-
 return filename
 
 
