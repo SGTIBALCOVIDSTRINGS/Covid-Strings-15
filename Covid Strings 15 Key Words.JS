@@ -1,7 +1,7 @@
 doc.type.html
 script
 filename=covid strings 15 key words.js
-covid strings 15 key word list=[worst impacts of long covid,getting fully vaccinated working from home,newest mystery pathogen,Than Flu, Covid In Wuhan, China Zero Covid Policy,Changing Dynamics Of Covid, Vaccine  Might Be Coming Soon,Fake Covid Reopening,Xers Losing,Covid Morphs,Disposable Masks Offer Protection, Work From Home Songs,Jn1,Six Feet Apart,]
+covid strings 15 key word list=[worst impacts of long covid,getting fully vaccinated working from home,newest mystery pathogen,than flu,covid in wuhan,china zero covid policy,changing dynamics of covid,vaccine might be coming soon,fake covid reopening,xers losing,covid morphs,disposable masks offer protection,work from home songs,jn1,six feet apart]
 string=””
 for string in covid strings search word list
 select characters
@@ -123,17 +123,17 @@ entity template instantiate
 entity script foobar=this entity
 entity reparnet (this.entity)
 m=pc.create script(m);
-M.Attributes.Add(foobar,{Type:Entity});
-M.Prototype.Initialize =Function() {
-Console.Log(This.Foobar.Name);
-Asset= This App .Assets.Find()
-Template Asset Resource 
-Entity Template Instanite
-Entity Script Foobar=This Entity
-Entity Reparnet (This.Entity)
+m.attributes.add(foobar,{type:entity});
+m.prototype.initialize =function() 
+console.log(this.foobar.name);
+asset=this app.assets.find()
+template asset resource 
+entity template instantite
+entity script foobar=this entity
+entity reparnet (this.entity)
 n=pc.create script(n);
-n.attributes.Add(Foobar,{Type:Entity});
-n.prototype.Initialize =Function() {
+n.attributes.add(foobar,{type:entity});
+n.prototype.initialize=function() 
 console.log(this.foobar.name);
 asset=this app.assets.find()
 template asset resource 
