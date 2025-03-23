@@ -165,7 +165,7 @@ console.log(this.foobar.name);
 asset=this app.assets.find()
 template asset resource 
 entity template instantiate
-entity script Foobar=this entity
+entity script foobar=this entity
 entity reparnet (this.entity)
 r=pc.create script(r);
 r.attributes.add(foobar,{type:entity});
