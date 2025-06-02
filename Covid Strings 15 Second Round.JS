@@ -138,9 +138,18 @@ else:
 remain
 if intermediateseed2score>=forty:
 console.log(intermediate seed2 advances)
+else:
+remain
+<subheading.html>
+result for matchup2
+the code for how to determine the end Result Of Matchup2 Of Covid Strings 
 result=declarewinner(matchup2)
 if highest remaining seed score>=forty:
 console.log(highest remaining seed advances)
 else:
+remain
+if lowest remaining seed score>=forty:
 console.log(lowest remaining seed advances)
+else:
+remain
 return filename
