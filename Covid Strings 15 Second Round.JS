@@ -142,7 +142,7 @@ else:
 remain
 <subheading.html>
 result for matchup2
-the code for how to determine the end Result Of Matchup2 Of Covid Strings 
+the code for how to determine the end result of matchup2 of covid strings 
 result=declarewinner(matchup2)
 if highest remaining seed score>=forty:
 console.log(highest remaining seed advances)
