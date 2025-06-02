@@ -106,11 +106,6 @@ if selectedanswer==correct:
 return true
 else:
 return false
-advancingteam=slice(current teams)
-if selectedanswer==correct:
-return true
-else:
-return false
 if selectedanswer=incorrect
 return false
 else:
@@ -134,25 +129,53 @@ change covid strings matchup score
 <header.html>
 advancing rounds
 contains criteria required for a team to advance to the second round 
+advancingteams=slice(current teams)
+<subheading.html>
+result for matchup1 
+the code for how to determine the end result of matchup1 of covid strings 
 result=declarewinner(matchup1)
 if white score>=forty:
 console.log(white transit angels win)
 else:
+remain
+if yellow score>=forty:
 console.log(yellow moxie wins)
+else:
+remain
+<subheading.html>
+result for matchup2 
+the code for how to determine the end result of matchup2 of covid strings 
 result=declarewinner(matchup2)
 if green score>=forty:
 console.log(green peacemakers win)
 else:
+remain
+if purple score>=forty:
 console.log(purple bravehearts win)
+else:
+remain
+<subheading.html>
+result for matchup3 
+the code for how to determine the end result of matchup3 of covid strings 
 result=declarewinner(matchup3)
 if red score>=forty:
 console.log(red protein spikers win)
 else:
+remain
+if magenta score>=forty:
 console.log(magenta magentizers win)
+else:
+remain
+<subheading.html>
+result for matchup4 
+the code for how to determine the end result of matchup4 of covid strings 
 result=declarewinner(matchup4)
 if turquoise score>=forty:
 console.log(turquoise waves win)
 else:
+remain
+if burgundy score>=forty:
 console.log(burgundy rebuilders win)
+else:
+remain
 return filename
-
