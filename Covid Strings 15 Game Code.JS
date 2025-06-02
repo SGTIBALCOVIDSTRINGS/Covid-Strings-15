@@ -1,11 +1,38 @@
 doc.type.html
+html lang en 
 script
+header=document create.element(header)
+header.style.backgroundcolor=#4caf50
+header.style.color=’white’
+header.style.padding=’10px’
+header.style.textalign=’center’
+header.style.text.fontsize=’24px’
+header.textcontent=’welcome to covid strings15’
+document appendchild(header)
+<header.html>
+heading variables 
+the heading numbers that determine where each heading and subheading go
+heading1=game code overview
+heading2=background functions
+heading3=game code part1
+heading4=phrases
+heading5=multiple choice questions
+heading6=math problems
+heading7=sentences
+heading8=game code part2 
+heading9=answer checker
+heading10=winner checker
+subheading1=polling problems
+subheading2=answer scanner
+filename=covidstrings15.js
+<header.html>
+game code overview
+an outline of the game code for covid strings15
+java.awt.graphics
 this.img=document.createelement(covid)
 img.src=http://www.google.com/intl/en_com/images/logo_plain.png
-src=documentgetelementbyid(header)
+src=document getelementbyid(header)
 src.appendchild(this.img)
-filename=covidstrings15.js
-java.awt.graphics
 div id=header></div
 audio=new audio(audio_file mp3)
 audio.play 
@@ -13,7 +40,7 @@ random button
 new button (set random color)
 option button
 new  button (change color)
-public fun with graphics(){
+public fun with graphics()
 color panel
 add (panel,center )
 button panel
@@ -23,6 +50,9 @@ random.button add actionlistener(new action listener)
 override 
 public actionperformed(actionevent e)
 random r= newrandom();
+<header.html>
+background functions
+the functions that lead into the background that are the first things the user will experience
 colorpanel.setbackground(new color(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),))
 num teams
 total players=players per team
@@ -34,12 +64,15 @@ teamsgrouping=(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)
 buttonpanel.add(optionbutton);
 optionbutton.add actionlistener(new action listener)
 override 
+<header.html>
+game code part1
+part1 of game code for covid strings15(value object[team-color]-desired color green)
 public actionperformed(actionevent e)
-color m=jcolorchooser.showdialog(funwithgraphics.this,)
+color m=jcolorchooser.showdialog(funwithgraphics.this)
 if(multi!=null)
 color panel set.background(multi)
 this.add(buttonpanel,borderlayout.south)
-public static void main(string [] args){
+public static void main(string [] args)
 jframe f = new covid strings15()
 f.set title(covid strings15)
 f.set default closeoperation(exit_on_close);
@@ -58,7 +91,7 @@ score+=twenty
 else:
 score-=twenty
 lblScore=document.getelementbyid(lblscore)
-lbl.score.innerHTML=score
+lbl.score.inner html=score
 public actionperformed(action event e) 
 system.out print.in (next button clicked)
 frame.add(next button);
@@ -68,6 +101,9 @@ keys object keys(team)
 entries object entries(obj);
 value object[team color]
 covidstrings teamlist15= [turquoise waves,green peacemakers,white transit angels,magenta magnetizers,red protein spikers,yellow moxie,purple brave hearts,burgundy rebuilders]
+<header.html>
+phrases
+phrases that involve both non-concatenated and concatenated strings
 covidstringsphraselist15=[ non-concatenated strings "trumps about face on covid is particularly offensive to people dealing with the worst impacts of long covid"
 "chinas newest mystery pathogen might prove even worse"
 "this is even after seventy six days of lockdowns account of covid in wuhan"
@@ -85,14 +121,75 @@ concatenated strings
 "this"+"is"+"less"+"concerning"+"than"+"if"+"covid"+"morphs"+"into"+"a"+"stomach"+"bug"
 "luckily"+"disposable"+"masks"+"can"+"still"+"offer"+"some"+"protection"
 "jn1"+"provides"+"a"+"potential"+"challenge"+"to"+"vaccines"]
+string manager{non-concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string manager{concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string=””
+for string in covid strings phrase list15 
+select characters
+edit diffuse property
+desired color=green
+<header.html>
+multiple choice questions 
+multiple choice questions and answers that will appear in covid strings15
 covidstrings15multiplechoicelist=[1 a charming b offensive c a reminder of his previous statements d angelic, 2 a imaginary b tangible c real d make-believe, 3 a covid songs b rudy giuliani jokes c birds arent real conspiracy theories d rick steves specials, 4 a chinas b the dominican republic  c sri lankas  d malaysia,5 a the same b lighter c deadlier d less fatal , 6 a graphite b graphene c gryphon  d chataswamy,
 7a trumps putin love affair b covid and flu c rabies d nuclear fusion, 8 a chinas b papa new guinea c malaysia d indonesias 9 a boomers b millennials c gen zers  d i geners,10 a 2022 blizzard b 2nd coronavirus pandemic c stomach bug d 2023 blizzard
 11 a wipes b masks c republican house majorities d armed missionaries, 12 a work b push it c lula says putin will be arrested d trump has one more polling problem,12 a total presidential immunity b vaccines c sam alitos willful blindness doctrine d kamala harris being a liability
 13 a dolly parton b ava max c luke combs d the zach brown band, 14 a full of independents b an unlucky generation c like trumps2024 d chinese women 15a melody b harmony  c timbre d trump dictatorship scare
 16 a metrics b financial loop c politics d transition, 17 a guesswork b an exact science c a war of narratives d something to be careful what you ask for, 18 a working from home b trying not to get elected c an unprecedented danger to democracy d losers bets,
 19,a yes b no 
-covid strings15mathproblemlist =[ non-concatenated "if53 percent viewed six feet apart as the best pandemic song how many dont"?,"if the margin of error is 6 percent what is the range"?,"if the margin of error is 6 percent what is the range"?,"if the second place choice is we can work from home with  41 percent what is the difference?”,“given the same margin of error what is the range for we can work from home?”,
-concatenated“if”+”a”+’poll”+”finds”+”that”+”97”+”percent”+”of”+”americans”+”know”+”of”+”at”+”least”+”one”+”covid”+”song”+”how”+”many”+”don’t?”,”if”+”54”+”percent”+”said”+”one”+”song”+”they”+”knew”+”was”+”level”+”of”+”concern”+”how”+”many”+”know”+”something”+”else?”,“of”+”those”+”46”+”percent”+”if”+”60”+”percent”+”said”+”their”+”other”+”song”+”was”+”season”+”of”+”the”+”sticks”+”how”+”many”+”people”+”is”+”that?”,if”+”only”+”34”+”percent”+”of”+”americans”+”believe”+”covid”+”is”+”worse”+”than”+”the”+”flu”+”what”+”is”+”the”+”remaining”+”percent?” ,”if”+”the”+”margin”+”of”+”error”+”is”+”6.5”+”percent”+”what”+”is”+”the”+”range?”,“if”+”56”+”out”+”of”+”the”+”66”+”percent”+”say”+”their”+”reason”+”was”+”because”+”the”+”vaccines”+”made”+”covid”+”milder”+”what”+”percent”+”don’t?” ]
+<header.html>
+math problems
+covid related math problems that will appear in covid strings15
+covid strings15mathproblemlist =[ non-concatenated strings  "if53 percent viewed six feet apart as the best pandemic song how many dont"?,"if the margin of error is 6 percent what is the range"?,"if the margin of error is 6 percent what is the range"?,"if the second place choice is we can work from home with  41 percent what is the difference?”,“given the same margin of error what is the range for we can work from home?”,]
+[concatenated strings“if”+”a”+’poll”+”finds”+”that”+”97”+”percent”+”of”+”americans”+”know”+”of”+”at”+”least”+”one”+”covid”+”song”+”how”+”many”+”don’t?”,”if”+”54”+”percent”+”said”+”one”+”song”+”they”+”knew”+”was”+”level”+”of”+”concern”+”how”+”many”+”know”+”something”+”else?”,“of”+”those”+”46”+”percent”+”if”+”60”+”percent”+”said”+”their”+”other”+”song”+”was”+”season”+”of”+”the”+”sticks”+”how”+”many”+”people”+”is”+”that?”,if”+”only”+”34”+”percent”+”of”+”americans”+”believe”+”covid”+”is”+”worse”+”than”+”the”+”flu”+”what”+”is”+”the”+”remaining”+”percent?” ,”if”+”the”+”margin”+”of”+”error”+”is”+”6.5”+”percent”+”what”+”is”+”the”+”range?”,“if”+”56”+”out”+”of”+”the”+”66”+”percent”+”say”+”their”+”reason”+”was”+”because”+”the”+”vaccines”+”made”+”covid”+”milder”+”what”+”percent”+”don’t?”]
+string manager{non-concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string manager{concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string=””
+for String In Covid Strings15 Math Problems List 
+select Characters
+edit Diffuse Property
+desired Color=Green
+public Static Main(String [] Args)
+int Number
+number=Number*2
+system.Out Print In (“The Number Is “ + Number)
+<subheading.html>
+polling problems
+math problems that involve the use of polls
+Polling Function (Exact,Number)
+Console Log (Exact:${Exact}, Number:${Number},
+If Polling Function Log== (Exact,Number)
+Return True
+Else:
+Return False
+If Polling Function Log==(Number,Exact)
+Return False
+Else:
+Return True  
+For Math Problems In Covid Strings Math Problem List 
+If Math Problem==Polling Percent:
+subtract Exact From100
+else:
+remain 
+if math problem==margin of error:
+add and subtract exact number
+else:
+remain 
+<header.html>
+sentences
+covid related sentences that will appear in covid strings15
 covid strings sentencelist15=["rihanna could certainly provide a fifth harmony to work from home","six feet apart should not be interpreted as a statement on how americas covid metrics differ from the rest of the world","getting fully vaccinated and working from home are equally progressive in their own right”, “covid”+”proves”+”that”+”gen”+”x”+”is”+”an”+”unlucky”+”generation”,“the”+”marign”+”of”+”error”+”for”+”covid”+”song”+”polling”+”is”+”guesswork” ]
 userin.select team
 import meta.
