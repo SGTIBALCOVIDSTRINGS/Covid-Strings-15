@@ -207,6 +207,10 @@ desired color=green
 <header.html>
 game code part2
 the rest of the game code excluding answer and winner checker
+java util.scanner
+java.util
+questions=total# of questions from covid strings15 [first-championship round]
+collections.shuffle(arrays.aslist(questions)
 userin.select team
 import meta.
 class myclass
