@@ -1,14 +1,38 @@
 doc.type.html
+html lang en 
 script
+header=document create.element(header)
+header.style.backgroundcolor=#4caf50
+header.style.color=’white’
+header.style.padding=’10px’
+header.style.textalign=’center’
+header.style.text.fontsize=’24px’
+header.textcontent=’welcome to covid strings15
+document appendchild(header)
+<header.html>
+heading variables 
+the heading numbers that determine where each heading and subheading go 
+heading1=keywords
+heading2=online references 
+heading3=script templates
 filename=covid strings 15 key words.js
+<header.html>
+keywords
+key search words for covid strings15
 covid strings 15 key word list=[worst impacts of long covid,getting fully vaccinated working from home,newest mystery pathogen,than flu,covid in wuhan,china zero covid policy,changing dynamics of covid,vaccine might be coming soon,fake covid reopening,xers losing,covid morphs,disposable masks offer protection,work from home songs,jn1,six feet apart]
 string=””
 for string in covid strings search word list
 select characters
 edit diffuse property
 desired color=green
+<header.html>
+online references 
+links to articles that correspond to phrases in covid strings15
 covid strings 15 reference list=[a:why covid is still flooring some people (msn.com),b:the importance of getting fully vaccinated against covid-19 -the new york times (nytimes.com),c:is work-from-home going away in 2024? why experts dont think it will.(usatoday.com),d:work-from home-job scams and how to spot them |remote.co,e:doctors in meltdown as mystery china pathogen stops responding to antibiotics (msn.com),f:covid-19 proved to be far deadlier than the flu,claims new study,g: 76 days of lockdown:documentary gives inside look at 1st covid-19 outbreak in wuhan |here & now (wbur.org),h:china tries to bury the memory and trauma of zero-covid era (msn.com),i:the fast-spreading new covid-19 subvariant xbb is part of a new class of omicron (msn.com),j:vaccine that kills all flu and covid strains could be on horizon after breakthrough find (msn.com),k:chinas economy has turned rotten and its reopening boom is a charade,market expert says (msn.com),l:older boomers won the pandemic after becoming a whopping $14 trillion richer,fed data reveals and gen x is losing the race (msn.com),
 m:fears that covid has morphed into stomach bug soar as new cases surge (msn.com),n:is your disposable mask actually protecting you?experts share what to look for (msn.com),o:40 songs about working from home (pop, rap & more) - foundations of music,p:rihanna -work lyrics | azlyrics.com, q:new covid variant jn.1 surges to 44% of cases, cdc estimates  even higher in new york,new jersey -cbs news, r:luke combs six feet apart lyrics|genius lyrics]
+<header.html>
+script templates
+code for accessing the references
 asset=this app.assets.find()
 template asset resource 
 entity template instantiate
@@ -128,7 +152,7 @@ m.prototype.initialize =function()
 console.log(this.foobar.name);
 asset=this app.assets.find()
 template asset resource 
-entity template instantite
+entity template instantiate
 entity script foobar=this entity
 entity reparnet (this.entity)
 n=pc.create script(n);
