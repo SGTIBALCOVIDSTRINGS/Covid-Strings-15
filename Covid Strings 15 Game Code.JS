@@ -157,30 +157,30 @@ insert string (entity,string)
 entity.element.text=string
 string manager insert string
 string=””
-for String In Covid Strings15 Math Problems List 
-select Characters
-edit Diffuse Property
-desired Color=Green
-public Static Main(String [] Args)
-int Number
-number=Number*2
-system.Out Print In (“The Number Is “ + Number)
+for string in covid strings15 math problems list 
+select characters
+edit diffuse property
+desired color=green
+public static main(String [] Args)
+int number
+number=number*2
+system.out print in (“the number is“ +number)
 <subheading.html>
 polling problems
 math problems that involve the use of polls
-Polling Function (Exact,Number)
-Console Log (Exact:${Exact}, Number:${Number},
-If Polling Function Log== (Exact,Number)
-Return True
-Else:
-Return False
-If Polling Function Log==(Number,Exact)
-Return False
-Else:
-Return True  
-For Math Problems In Covid Strings Math Problem List 
-If Math Problem==Polling Percent:
-subtract Exact From100
+polling function (exact,number)
+console log (exact:${exact}, number:${number},
+if polling function log== (exact,number)
+return true
+else:
+return false
+if polling function log==(number,exact)
+return false
+else:
+return true  
+for math problems in covid strings math problem list 
+if math problem==polling percent:
+subtract exact from100
 else:
 remain 
 if math problem==margin of error:
@@ -191,6 +191,22 @@ remain
 sentences
 covid related sentences that will appear in covid strings15
 covid strings sentencelist15=["rihanna could certainly provide a fifth harmony to work from home","six feet apart should not be interpreted as a statement on how americas covid metrics differ from the rest of the world","getting fully vaccinated and working from home are equally progressive in their own right”, “covid”+”proves”+”that”+”gen”+”x”+”is”+”an”+”unlucky”+”generation”,“the”+”marign”+”of”+”error”+”for”+”covid”+”song”+”polling”+”is”+”guesswork” ]
+string manager{non-concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string manager{concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string=””
+for string in covid strings sentence list15 
+select characters
+edit diffuse property
+desired color=green
+<header.html>
+game code part2
+the rest of the game code excluding answer and winner checker
 userin.select team
 import meta.
 class myclass
@@ -220,7 +236,10 @@ prompt
 log
 import syntax 
 substring(start,end)
-userin.multiple choice
+<header.html>
+answer checker
+the feature within covid strings that allows the software to check whether a users answer is correct
+for multiple choice questions in covid strings 
 if selectedanswer==correct answer:
 return true
 else:
@@ -229,6 +248,22 @@ if selectedanswer=not correct
 return false
 else: 
 return true
+for math problems in covid strings
+if typed answer == correct
+return true
+else:
+return false
+if typed answer== not correct
+return false
+else
+return true
+public static main(string []args)
+int number
+number=number*2
+system.out print in (“the number is“ +number)
+<subheading.html>
+answer scanner
+the feature within the covid strings answer checker that allows for confirmation of the user 
 answer checker
 scanner=new scanner(system.in)
 string correct answer
@@ -238,15 +273,26 @@ system.out.print.in(correct)
 else:
 system.out.printin(incorrect)
 scanner.close
+<header.html>
+winner checker
+the feature within covid strings that allows for the player to know if their team won 
 check winner:
 if winner==true:
 log(the winner is)
+else:
+remain
 if winner==false:
 log(no winner yet) 
+else:
+log winner
 if users team wins covid strings15 
 console log users team wins covid strings15 
-else
+else:
+remain
+if users team loses covid strings15
 return game over
+else:
+remain
 return filename
 
 
