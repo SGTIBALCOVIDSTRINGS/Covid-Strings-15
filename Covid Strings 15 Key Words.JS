@@ -20,8 +20,17 @@ filename=covid strings 15 key words.js
 keywords
 key search words for covid strings15
 covid strings 15 key word list=[worst impacts of long covid,getting fully vaccinated working from home,newest mystery pathogen,than flu,covid in wuhan,china zero covid policy,changing dynamics of covid,vaccine might be coming soon,fake covid reopening,xers losing,covid morphs,disposable masks offer protection,work from home songs,jn1,six feet apart]
+string manager non-concatenated
+insert string(entity,string)
+entity.element.text=string
+string manager insert string
 string=””
-for string in covid strings search word list
+string manager concatenated
+insert string(entity,etring)
+entity.element.text=string
+string manager insert string
+string=””
+for string in covid strings key word list
 select characters
 edit diffuse property
 desired color=green
